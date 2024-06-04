@@ -26,62 +26,13 @@ const carousel = [{
     sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
     consectetur adipiscing elit, sed do eiusmod”`,
     nama: 'John Dee'
-}, {
-    img: male,
-    description: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
-    dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
-    consectetur adipiscing elit, sed do eiusmod”`,
-    nama: 'John Dee'
-}, {
-    img: male,
-    description: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
-    dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
-    consectetur adipiscing elit, sed do eiusmod”`,
-    nama: 'John Dee'
-}, {
-    img: male,
-    description: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
-    dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
-    consectetur adipiscing elit, sed do eiusmod”`,
-    nama: 'John Dee'
-}, {
-    img: male,
-    description: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
-    dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
-    consectetur adipiscing elit, sed do eiusmod”`,
-    nama: 'John Dee'
-}, {
-    img: male,
-    description: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
-    dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
-    consectetur adipiscing elit, sed do eiusmod”`,
-    nama: 'John Dee'
-}, {
-    img: male,
-    description: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
-    dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
-    consectetur adipiscing elit, sed do eiusmod”`,
-    nama: 'John Dee'
-}, {
-    img: male,
-    description: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
-    dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
-    consectetur adipiscing elit, sed do eiusmod”`,
-    nama: 'John Dee'
 }];
 
-const Carousel = () => {
+const CarouselPage = () => {
     const [data, setdata] = useState(null);
     useEffect(() => {
-        setdata(Carousel)
-    }, [data]);
+        setdata(carousel)
+    }, [data, carousel]);
     return (
         <section className="carousel">
             <div className="section-carousel-title">
@@ -132,4 +83,4 @@ const Carousel = () => {
     )
 }
 
-export default Carousel;
+export default CarouselPage;

@@ -63,7 +63,7 @@ export const Header = () => {
                     </li>}
                     {isLoggedIn() && <li className='d-flex align-items-center gap-2 position-relative' style={{ cursor: 'pointer' }}>
                         <div style={{ padding: 3 }} className='rounded-circle border px-2'><i className='fa fa-user' /></div>
-                        <span style={{ fontSize: 12 }}>jhon Doe</span>
+                        <span style={{ fontSize: 12 }}></span>
                         <span onClick={() => settoggle(!istoggle)}><i className='fa fa-chevron-down' style={{ fontSize: 12 }} /></span>
                         {istoggle && <div className='position-absolute' style={{ background: 'white', zIndex: 10, width: '12rem', top: '2rem', left: '-2rem' }}>
                             <div onClick={isLogout} className='d-flex p-2 gap-4' style={{ alignItems: 'center' }}>

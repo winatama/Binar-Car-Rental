@@ -10,7 +10,7 @@ const Footer = () => {
     if (pathname === '/register') return <></>
     if (pathname === '/login') return <></>
     return (
-        <footer id="footer" className="container-local section-footer">
+        <footer id="footer" className="container-local footer-banner">
             <div className="footer-address">
                 <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
                 <p>binarcarrental@gmail.com</p>
@@ -22,9 +22,9 @@ const Footer = () => {
                 <p>Testimonial</p>
                 <p>FAQ</p>
             </div>
-            <div className="footer-icon">
+            <div className="footer-list-socmed">
                 <p>Connect with us</p>
-                <ul className="footer-icon-img">
+                <ul className="icon-list-style">
                     <li><img src={Ic_facebook} alt="ic-balls" /></li>
                     <li><img src={Ic_instagram} alt="ic-balls" /></li>
                     <li><img src={Ic_twitter} alt="ic-balls" /></li>
